@@ -13,7 +13,6 @@ function drawTenBalls({
   let A = new Point(new Vector2d(getRandom(width),getRandom(height)), 40);
 
 
-
   A.addEventListener('mousedown', ()=>{
     document.getElementsById('A').fillStyle = "red";
   })
