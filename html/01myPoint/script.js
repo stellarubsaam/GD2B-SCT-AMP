@@ -13,7 +13,7 @@ function animate(){
   context.clearRect(0, 0, width, height);
   requestAnimationFrame(animate);
 
-  let A = new Point(new Vector2d(getRandom(width),getRandom(height)), 10);
+  let A = new Point(new Vector2d(getRandom(width),getRandom(height)), 10, "black");
   points.push(A)
   //A.draw(context);
 
